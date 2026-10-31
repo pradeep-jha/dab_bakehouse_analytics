@@ -2,7 +2,7 @@
 
 resources:
   jobs:
-    bakehouse_data_refresh.job:
+    bakehouse_data_refresh_job:
       name: bakehouse_data_refresh.job
 
       trigger:

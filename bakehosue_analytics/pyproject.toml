@@ -32,3 +32,9 @@ line-length = 120
 
 [tool.databricks.environment]
 environment_version = '6'
+
+####Added by pradeep for CI/CD-testing****
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

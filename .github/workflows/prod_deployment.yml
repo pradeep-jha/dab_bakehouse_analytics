@@ -24,12 +24,12 @@ jobs:
 
   # STEP 1: Run unit tests
   test:
-     name: 'Run PyTest'
-     runs-on: ubuntu-latest
+    name: 'Run PyTest'
+    runs-on: ubuntu-latest
 
     env:
       DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
-      DATABRICKS_TOKEN: ${{ secrets.SP_TOKEN }
+      DATABRICKS_TOKEN: ${{ secrets.SP_TOKEN }}
 
     steps:
       - name: Checkout repository

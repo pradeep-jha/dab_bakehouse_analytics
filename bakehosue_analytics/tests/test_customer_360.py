@@ -4,7 +4,7 @@ from customer_360_base import build_customer_360
 
 def test_build_customer_360(spark):
 
-    # Step 1: Create sample test data
+    # Step 1: Create sample test data ..
     data = [
         ("India", "female"),
         ("India", "female"),

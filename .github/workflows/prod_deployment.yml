@@ -51,7 +51,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: bakehosue_analytics
-        run: uv sync --all-groups
+        run: uv sync --all-groups --default-index https://pypi.org/simple
 
       - name: Run unit tests
         working-directory: bakehosue_analytics

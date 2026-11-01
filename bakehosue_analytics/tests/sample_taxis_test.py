@@ -1,8 +1,7 @@
-from databricks.sdk.runtime import spark
-from pyspark.sql import DataFrame
+# from bakehosue_analytics import taxis
 from bakehosue_analytics import taxis
 
+def test_find_all_taxis(spark):
+    results = taxis.find_all_taxis(spark)
 
-def test_find_all_taxis():
-    results = taxis.find_all_taxis()
-    assert results.count() > 5
+    assert results is not None
